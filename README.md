@@ -24,8 +24,8 @@ PUT: http://localhost:8080/user
 
     {  
     	"id":"2",  
-        "name": "Prasobh kollattuu",  
-        "email": "Prasobh@obtil.com"  
+      "name": "Prasobh kollattuu",  
+      "email": "Prasobh@obtil.com"  
     }  
 
 DELETE    
