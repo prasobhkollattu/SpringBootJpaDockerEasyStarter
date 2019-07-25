@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8080
+ADD /target/springbootuserservice.jar springbootuserservice.jar
+ENTRYPOINT ["java", "-jar", "springbootuserservice.jar"]

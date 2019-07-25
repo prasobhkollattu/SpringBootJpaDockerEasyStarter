@@ -1,0 +1,14 @@
+#Load project docker image
+docker build -f Dockerfile -t springbootuserservice .
+#Run project
+docker run -p 8080:8080 springbootuserservice
+#Save docker image to system for share to team
+docker save -o springbootuserservice.tar springbootuserservice
+#load docker image to docker
+docker load -i springbootuserservice.tar
+#List all images
+docker images -a
+#stop image 
+docker stop (image id)
+#delete image  (image id)
+docker rmi -f b215037a9987

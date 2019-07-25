@@ -54,6 +54,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>springbootuserservice</finalName>
 	</build>
 
 </project>
