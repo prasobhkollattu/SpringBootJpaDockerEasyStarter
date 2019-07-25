@@ -5,11 +5,11 @@ This microservice deals with user details.
 
 Counsumer can CREATE?SELECT/DELETE/UPDATE user details    
 
-SELECT  
+**SELECT**  
 
 GET http://localhost:8080/users
 
-CREATE
+**CREATE**
 
 POST: http://localhost:8080/user    
 
@@ -18,7 +18,7 @@ POST: http://localhost:8080/user
         "email": "Prasobh@obtil.com"  
     }  
 
-UPDATE    
+**UPDATE**    
 
 PUT: http://localhost:8080/user    
 
@@ -28,7 +28,7 @@ PUT: http://localhost:8080/user
       "email": "Prasobh@obtil.com"  
     }  
 
-DELETE    
+**DELETE**    
 
 DELETE: http://localhost:8080/user/{id}
 
