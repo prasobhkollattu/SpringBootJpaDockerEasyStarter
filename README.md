@@ -18,7 +18,7 @@ POST: http://localhost:8080/user
         "email": "Prasobh@obtil.com"  
     }  
 
-**UPDATE**    
+**UPDATE    
 
 PUT: http://localhost:8080/user    
 
