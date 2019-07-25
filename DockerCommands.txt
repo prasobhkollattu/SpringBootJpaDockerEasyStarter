@@ -12,3 +12,5 @@ docker images -a
 docker stop (image id)
 #delete image  (image id)
 docker rmi -f b215037a9987
+
+docker ps -a  :to get process details
