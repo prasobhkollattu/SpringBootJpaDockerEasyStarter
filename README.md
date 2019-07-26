@@ -1,4 +1,4 @@
-# SpringBootJpaEasyStarter
+# SpringBootJpaDockerEasyStarter
 
 This is a simple project to understand microservice project structure.  
 This microservice deals with user details.  
