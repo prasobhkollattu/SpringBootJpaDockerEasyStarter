@@ -15,17 +15,17 @@ POST: http://localhost:8080/user
 
      {   
         "name": "Prasobh kollattuu",  
-        "email": "Prasobh@obtil.com"  
+        "email": "Prasobh@test.com"  
     }  
 
 **UPDATE    
 
 PUT: http://localhost:8080/user    
-
+test
     {  
     	"id":"2",  
       "name": "Prasobh kollattuu",  
-      "email": "Prasobh@obtil.com"  
+      "email": "Prasobh@test.com"  
     }  
 
 **DELETE**    
